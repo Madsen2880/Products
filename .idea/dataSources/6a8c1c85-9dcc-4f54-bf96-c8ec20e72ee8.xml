@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="oop_productsdb@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.1">
+    <root id="1"/>
+    <schema id="2" parent="1" name="oop_productsdb">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="advokaterne"/>
+    <schema id="4" parent="1" name="advo_db"/>
+    <schema id="5" parent="1" name="angular"/>
+    <schema id="6" parent="1" name="bbdb"/>
+    <schema id="7" parent="1" name="cdcol"/>
+    <schema id="8" parent="1" name="codelib"/>
+    <schema id="9" parent="1" name="dbpdo"/>
+    <schema id="10" parent="1" name="dbuser"/>
+    <schema id="11" parent="1" name="hifidb"/>
+    <schema id="12" parent="1" name="information_schema"/>
+    <schema id="13" parent="1" name="landdrupdans"/>
+    <schema id="14" parent="1" name="landdrupdansv3"/>
+    <schema id="15" parent="1" name="minblog"/>
+    <schema id="16" parent="1" name="mitloginddb"/>
+    <schema id="17" parent="1" name="mysql"/>
+    <schema id="18" parent="1" name="newsdb"/>
+    <schema id="19" parent="1" name="oop_db"/>
+    <schema id="20" parent="1" name="performance_schema"/>
+    <schema id="21" parent="1" name="phpintro"/>
+    <schema id="22" parent="1" name="phpmyadmin"/>
+    <schema id="23" parent="1" name="slipsdb"/>
+    <schema id="24" parent="1" name="webauth"/>
+    <schema id="25" parent="1" name="wpdb"/>
+    <table id="26" parent="2" name="products"/>
+    <column id="27" parent="26" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="28" parent="26" name="name">
+      <Position>2</Position>
+      <DataType>varchar(60)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="29" parent="26" name="price">
+      <Position>3</Position>
+      <DataType>decimal(10,2)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="30" parent="26" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
